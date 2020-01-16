@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a software engineer by day.
 
-### More Information
+## Goals of this wite
 
-A place to include any other types of information that you'd like to include about yourself.
+I have two primary goals for this site:
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+  1. Act as a central location for capturing notes on the various technologies I use so that I can refer back to it in future.
+  2. To give myself some kind of presence on the web.
