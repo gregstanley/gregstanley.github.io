@@ -7,7 +7,7 @@ permalink: /about/
 This site is driven by [GitHub pages](https://help.github.com/en/github/working-with-github-pages) and was developed using [Barry Clark's](https://www.barryclark.co/) [excellent tutorial](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
 
 # Why?
-I'm a software engineer by day but after well over a decade of being in and around the industry there is ]little to no evidence](https://www.youtube.com/watch?v=z_Cb5wQBoXs) of my existence.
+I'm a software engineer by day but after well over a decade of being in and around the industry there is [little to no evidence](https://www.youtube.com/watch?v=z_Cb5wQBoXs) of my existence.
 
 ## Goals of this wite
 
