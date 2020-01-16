@@ -34,15 +34,15 @@ cat ~/.ssh/id_rsa.pub | ssh remote_username@server_ip_address/your_domain.com "m
 
 # Remember which key file to use with the domain
 
-* Open _.ssh_ directory under you user folder (or create it if it does not exist).
+* Open _.ssh_ directory under your user folder (or create it if it does not exist).
 * Open the _config_ file (or, again, create it if it does not exist).
-* Add the following :
+* Add the following:
 
 {% highlight INI %}
 Host server_ip_address/your_domain.com
   HostName server_ip_address/your_domain.com
-  User remote_ruser
-  IdentityFile /home/localuser/.ssh/your_private_key_id_rsa
+  User remote_user
+  IdentityFile /home/localuser/.ssh/your_key_id_rsa
   IdentitiesOnly yes
 {% endhighlight %}
 
