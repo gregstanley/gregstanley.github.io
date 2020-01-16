@@ -8,7 +8,7 @@ tags:
   - ssh
 ---
 
-The following notes are asubset of the information provided in [this tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/).
+The following notes are a subset of the information provided in [this tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/).
 
 # Prerequisites
 
@@ -17,7 +17,7 @@ The following notes are asubset of the information provided in [this tutorial](h
 
 # Create an [SSH Key pair](https://winscp.net/eng/docs/ssh_keys)
 
-Using [PuTTYGen](https://www.ssh.com/ssh/putty/windows/puttygen):
+The tutorial does this manually on the command line which is fine, however you can also use [PuTTYGen](https://www.ssh.com/ssh/putty/windows/puttygen):
 
 * _Optional_ - change the bits to _4096_.
 * Click _Generate_.
@@ -26,19 +26,21 @@ Using [PuTTYGen](https://www.ssh.com/ssh/putty/windows/puttygen):
 
 # Copy the _public_ key to the remote [Ubuntu Server](https://ubuntu.com/download/server)
 
+You should be able to run the following (exactly as shown in [the tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/)):
+
 {% highlight Console %}
-cat ~/.ssh/id_rsa.pub | ssh remote_username@server_ip_address "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh remote_username@server_ip_address/your_domain.com "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
 {% endhighlight %}
 
 # Remember which key file to use with the domain
 
 * Open _.ssh_ directory under you user folder (or create it if it does not exist).
 * Open the _config_ file (or, again, create it if it does not exist).
-* Add the following (:
+* Add the following :
 
 {% highlight INI %}
-Host server_ip_address/thedomain.com
-  HostName server_ip_address/thedomain.com
+Host server_ip_address/your_domain.com
+  HostName server_ip_address/your_domain.com
   User remote_ruser
   IdentityFile /home/localuser/.ssh/your_private_key_id_rsa
   IdentitiesOnly yes
