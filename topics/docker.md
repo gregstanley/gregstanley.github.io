@@ -29,6 +29,7 @@ docker cp name-1:/dump/onet C:/
 ## Volumes
 
 DO NOT use ~ (home directory) when specifying volumes.
+
 {% highlight Docker %}
 DOES NOT WORK
 volumes:
@@ -37,4 +38,12 @@ volumes:
 WORKS
 volumes:
   - /home/host-user/files:/home/docker-user/files
+{% endhighlight %}
+
+# Docker Compose
+
+Find out information about running processes:
+
+{% highlight Docker %}
+docker-compose top
 {% endhighlight %}
