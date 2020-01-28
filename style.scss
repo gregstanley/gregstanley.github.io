@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $georgia;
   color: $darkGray;
 }
 
@@ -194,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $georgia;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $georgia;
   font-size: 18px;
 
   @include mobile {
@@ -251,7 +251,7 @@ nav {
   border-bottom: none;
 }
 
-.post {
+.post, .page {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
