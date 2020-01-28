@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  font: 1.2rem $georgia;
+  font: 18px/1.4 $georgia;
   color: $darkGray;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1rem 0 1rem;
+  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -45,27 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 30px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 18px;
   color: $gray;
 }
 
 p {
-  margin: 0.2rem 0;
+  margin: 15px 0;
 }
 
 a {
@@ -78,8 +78,8 @@ a {
 }
 
 ul, ol {
-  margin: 0.2rem 0;
-  padding-left: 0.2rem;
+  margin: 15px 0;
+  padding-left: 30px;
 }
 
 ul {
@@ -151,11 +151,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 0.5rem;
+  margin-bottom: 50px;
 }
 
 .masthead {
-  padding: 0.2rem 0;
+  padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -167,7 +167,7 @@ img {
   float: left;
   width: 70px;
   height: 70px;
-  margin-right: 0.1rem;
+  margin-right: 15px;
 
   @include mobile {
     float: none;
@@ -194,33 +194,33 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $georgia;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 1.2rem;
+  font-size: 16px;
 
   @include mobile {
-    margin: 0.1rem 0;
+    margin: 3px 0;
   }
 }
 
 nav {
   float: right;
-  margin-top: 0.2rem; // @TODO: Vertically middle align
+  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $georgia;
-  font-size: 1rem;
+  font-size: 18px;
 
   @include mobile {
     float: none;
-    margin-top: 0.1rem;
+    margin-top: 9px;
     display: block;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   a {
@@ -231,7 +231,7 @@ nav {
     letter-spacing: 1px;
 
     @include mobile {
-      margin: 0 0.1rem;
+      margin: 0 10px;
       color: $blue;
     }
   }
@@ -242,44 +242,44 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2rem;
+  padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
   border-bottom: none;
 }
 
 .post, .page {
   blockquote {
-    margin: 1.8rem .8rem;
+    margin: 1.8em .8em;
     border-left: 2px solid $gray;
-    padding: 0.1rem 1rem;
+    padding: 0.1em 1em;
     color: $gray;
-    font-size: 1.2rem;
+    font-size: 22px;
     font-style: italic;
   }
 
   .comments {
-    margin-top: 0.1rem;
+    margin-top: 10px;
   }
 
   .read-more {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 15px;
   }
 }
 
 .wrapper-footer {
-  margin-top: 0.5rem;
+  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
-  padding: 0.2rem 0;
+  padding: 20px 0;
   text-align: center;
 }
 
