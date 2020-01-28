@@ -13,7 +13,7 @@ A while ago I tried to setup an Elasticsearch and Kibana combo using [Docker](ht
 
 A reason task has given me reason to try again so, entirely for my own benefit I'm going to make a note of what I did to get setup here.
 
-# Running Elasticsearch and Kibana in Docker
+## Running Elasticsearch and Kibana in Docker
 I updated [this advice](https://discuss.elastic.co/t/kibana-docker-image-doesnt-connect-to-elasticsearch-image/79511/3) to look like the following (this assumes you have [Docker](https://www.docker.com/) running):
 
 `docker network create elastic`
@@ -24,7 +24,7 @@ I updated [this advice](https://discuss.elastic.co/t/kibana-docker-image-doesnt-
 
 Note, I added the ports which were missing in the original comment. If this is successful then navigating to localhost:9200 in your browser should get you to the Kibana login screen. You should be able to use the [elastic superuser](https://www.elastic.co/guide/en/elastic-stack-overview/current/built-in-users.html) to login.
 
-# Importing data
+### Importing data
 
 With that in place the next challenge is to get some data in there. As it happened I already had some data in a spreadsheet so the task was to find a way to get it into Elasticsearch via the API.
 
