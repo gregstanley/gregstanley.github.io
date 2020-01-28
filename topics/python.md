@@ -27,4 +27,10 @@ The key benefits of using [Anaconda](https://www.anaconda.com/distribution/) fro
 > * Spyder (IDE/editor - like PyCharm) and Jupyter
 > * _conda_, [Anaconda](https://www.anaconda.com/distribution/)'s own package manager, used for updating [Anaconda](https://www.anaconda.com/distribution/) and packages
 
-It is an independent eco-system though and packages are managed separately.
+_and_
+
+>  It is quite complete and avoids problems in building libraries that you need from source code, that frequently plague one by one installations of those libraries by tools like pip.
+
+Considerations:
+* The independent package management can sometimes be behind.
+* Larger size - is it suitable for the project e.g. Docker perhaps?
