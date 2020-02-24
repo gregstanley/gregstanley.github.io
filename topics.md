@@ -6,7 +6,8 @@ permalink: /topics/
 
 General notes on the following technologies:
 
-* [Docker](/topics/docker)
-* [Python](/topics/python)
+* [Git](/topics/git)
 * [VS Code](/topics/vscode)
+* [Python](/topics/python)
+* [Docker](/topics/docker)
 * [Clean code](/topics/clean-code)
