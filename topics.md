@@ -10,4 +10,5 @@ General notes on the following technologies:
 * [VS Code](/topics/vscode)
 * [Python](/topics/python)
 * [Docker](/topics/docker)
+* [Azure](/topics/azure)
 * [Clean code](/topics/clean-code)
