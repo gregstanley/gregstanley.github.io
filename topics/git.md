@@ -25,3 +25,11 @@ Interesting discussion of the [squash rebase workflow](https://blog.carbonfive.c
 There are alternative approaches:
 
 [Use reset to merge](https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642)
+
+## Cleaning up old branches
+
+{% highlight Git %}
+git remote prune origin --dry-run
+{% endhighlight %}
+
+[Additional notes](http://www.fizerkhan.com/blog/posts/Clean-up-your-local-branches-after-merge-and-delete-in-GitHub.html)
