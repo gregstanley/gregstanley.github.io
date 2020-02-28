@@ -34,3 +34,10 @@ _and_
 Considerations:
 * The independent package management can sometimes be behind.
 * Larger size - is it suitable for the project e.g. Docker perhaps?
+
+## Unit testing
+
+[In VSCode](https://code.visualstudio.com/docs/python/testing#_test-configuration-settings)
+[General file structure advice](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
+* Make your `source` and `tests` directories siblings.
+* Ensure `__init__.py` exists in both (for test discovery).
