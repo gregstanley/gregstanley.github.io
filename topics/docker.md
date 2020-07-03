@@ -40,6 +40,14 @@ volumes:
   - /home/host-user/files:/home/docker-user/files
 {% endhighlight %}
 
+## House keeping
+
+Remove all images that aren't connected to a container:
+
+{% highlight Docker %}
+docker image prune -a
+{% endhighlight %}
+
 # Docker Compose
 
 Find out information about running processes:
