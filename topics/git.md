@@ -26,6 +26,17 @@ There are alternative approaches:
 
 [Use reset to merge](https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git/5201642#5201642)
 
+## Rebasing wtih DevOps and squash commits
+
+Scenario: A pull request has been made based on a developemnt branch. Upon completion will be merged to master using a squash commit. In the meantime, additional development - that is dependent on the changes that make up the first PR - has started. When the the PR is completed the second development branch will have a different history (it's based on the original commits that have now turned in to a single squash on master). To avoid dealing with conflicts the second development branch can be rebased on to of master.
+
+* Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
+* Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
+
+{% highlight Git %}
+git rebase --onto master HEAD~1
+{% endhighlight %}
+
 ## Cleaning up old branches
 
 {% highlight Git %}
