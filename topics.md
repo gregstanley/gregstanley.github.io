@@ -12,3 +12,4 @@ General notes on the following technologies:
 * [Docker](/topics/docker)
 * [Azure](/topics/azure)
 * [Clean code](/topics/clean-code)
+* [SQL Server](/topics/sql-server)
