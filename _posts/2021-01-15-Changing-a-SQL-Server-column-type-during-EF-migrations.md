@@ -30,6 +30,6 @@ migrationBuilder.Sql("UPDATE [<table>] SET [<column>] = TRY_CAST(NULLIF([<column
 
 I also encountered a problem with the Down() command - it was unhappy with existing indexes. The approach I took was to:
 
-# Drop the index
-# Run the generated migrations
-# Recreate the index - _by copying the exact command from the point it was last updated_.
+* Drop the index
+* Run the generated migrations
+* Recreate the index - _by copying the exact command from the point it was last updated_.
