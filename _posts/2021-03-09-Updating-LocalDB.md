@@ -7,9 +7,9 @@ categories:
 tags:
   - localdb
 ---
-I recently discovered that although [Visual Studio](https://visualstudio.microsoft.com/) installs a version of [LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15) it is not necessarily the latest one or kept up-to-date and I ran in to problems while trying to run a script containing ` OPTIMIZE_FOR_SEQUENTIAL_KEY`.
+I recently discovered that although [Visual Studio](https://visualstudio.microsoft.com/) installs a version of [LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15) it is not necessarily the latest one (or updated when [Visual Studio](https://visualstudio.microsoft.com/) updates) and I ran in to problems while trying to run a script containing [OPTIMIZE_FOR_SEQUENTIAL_KEY](https://stackoverflow.com/questions/59985030/syntax-error-at-optimize-for-sequential-key) which requires v15 - two versions above the version installed by [Visual Studio](https://visualstudio.microsoft.com/).
 
-To upgrade [LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15) I followed [this article](https://intellitect.com/upgrading-sql-server-localdb/) inlcuding running:
+To upgrade [LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15) I followed [this article](https://intellitect.com/upgrading-sql-server-localdb/) including running:
 
 ```
 C:\                         
