@@ -13,3 +13,10 @@ General notes on the following technologies:
 * [Azure](/topics/azure)
 * [Clean code](/topics/clean-code)
 * [SQL Server](/topics/sql-server)
+
+
+## Node
+
+{% highlight bash %}
+npm ls -g --depth=0 // List out top level global packages
+{% endhighlight %}
