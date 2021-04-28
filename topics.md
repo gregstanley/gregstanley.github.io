@@ -12,7 +12,7 @@ General notes on the following technologies:
 * Node
 * Python
 * Azure
-* VS Code
+* [VS Code](/topics/vscode)
 * [Clean code](/topics/clean-code)
 
 ## Git
@@ -162,63 +162,3 @@ Considerations:
 {% highlight bash %}
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
 {% endhighlight %}
-
-## VSCode - Example launch.json snippets
-
-### Python
-
-`
-{
-    "name": "Python: App (Integrated Terminal)",
-    "type": "python",
-    "request": "launch",
-    "program": "${workspaceFolder}/path/to/start.py",
-    "console": "integratedTerminal",
-    "cwd": "${workspaceFolder}",
-    "pythonPath": "${workspaceFolder}/venv/Scripts/python.exe",
-    "env": {
-        "PYTHONPATH" : "${workspaceFolder}"
-    }
-}
-`
-
-* `pythonPath` - Ensure the application runs through your [virtual environment](https://docs.python.org/3/library/venv.html)
-* `PYTHONPATH` - allows Python to actually find your source code.
-
-### Angular frontend and NET Core backend
-"configurations": [
-    {
-        "name": "Frontend",
-        "command": "npm start",
-        "request": "launch",
-        "type": "node-terminal",
-        "cwd": "${workspaceFolder}/Frontend/",
-        "skipFiles": [
-            "<node_internals>/**"
-        ]
-    },
-    {
-        "name": "API",
-        "type": "coreclr",
-        "request": "launch",
-        "preLaunchTask": "build",
-        "program": "${workspaceFolder}/Backend/<project>/bin/Debug/net5.0/C<project>.dll",
-        "args": [],
-        "cwd": "${workspaceFolder}/Backend/<project>",
-        "stopAtEntry": false,
-        "serverReadyAction": {
-            "action": "openExternally",
-            "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-        },
-        "env": {
-            "ASPNETCORE_ENVIRONMENT": "Development"
-        }
-    },
-
-],
-"compounds": [
-    {
-        "name": "API + Frontend",
-        "configurations": ["API", "Frontend"]
-    }
-]
