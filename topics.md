@@ -6,14 +6,14 @@ permalink: /topics/
 
 General notes on the following technologies:
 
-* Git
-* Docker
-* SQL Server
-* Node
-* Python
-* Azure
-* [VS Code](/topics/vscode)
-* [Clean code](/topics/clean-code)
+- Git
+- Docker
+- SQL Server
+- Node
+- Python
+- Azure
+- [VS Code](/topics/vscode)
+- [Clean code](/topics/clean-code)
 
 ## Git
 
@@ -29,7 +29,7 @@ git rebase -i HEAD~x
 
 Leave one commit as 'pick' and change the rest to 'squash'.
 
-Interesting discussion of the [squash rebase workflow](https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/). 
+Interesting discussion of the [squash rebase workflow](https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/).
 
 There are alternative approaches:
 
@@ -39,8 +39,8 @@ There are alternative approaches:
 
 Scenario: A pull request has been made based on a developemnt branch. Upon completion will be merged to master using a squash commit. In the meantime, additional development - that is dependent on the changes that make up the first PR - has started. When the the PR is completed the second development branch will have a different history (it's based on the original commits that have now turned in to a single squash on master). To avoid dealing with conflicts the second development branch can be rebased on to of master.
 
-* Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
-* Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
+- Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
+- Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
 
 {% highlight Git %}
 git rebase --onto master HEAD~1
@@ -76,12 +76,14 @@ DO NOT use ~ (home directory) when specifying volumes (on Windows).
 {% highlight Docker %}
 DOES NOT WORK
 volumes:
-  - ~/files:/home/docker-user/files
+
+- ~/files:/home/docker-user/files
 
 WORKS
 volumes:
-  - /home/host-user/files:/home/docker-user/files
-{% endhighlight %}
+
+- /home/host-user/files:/home/docker-user/files
+  {% endhighlight %}
 
 ### House keeping
 
@@ -90,6 +92,16 @@ Remove all images that aren't connected to a container:
 {% highlight Docker %}
 docker image prune -a
 {% endhighlight %}
+
+### Error occured: Cannot enable hyper-v service
+
+This occured after a BIOS update. Hyper-V was still enable but Docker could not launch. Running:
+
+{% highlight Docker %}
+bcdedit /set hypervisorlaunchtype auto
+{% endhighlight %}
+
+As discussed [here](https://forums.docker.com/t/cannot-enable-hyper-v-service/94086/5) resolved the issue.
 
 ## Docker Compose
 
@@ -107,7 +119,6 @@ DBCC SHRINKDATABASE (DataWarehouse, 10);
 GO
 {% endhighlight %}
 
-
 ## Node
 
 {% highlight bash %}
@@ -119,7 +130,7 @@ npm ls -g --depth=0 // List out top level global packages
 ### Installing on Windows
 
 | Installation method                                                      | Expected path                                                       |
-|--------------------------------------------------------------------------|---------------------------------------------------------------------|
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
 | [Manual](https://www.python.org/downloads/) (all users)                  | `C:\Python3x`                                                       |
 | [Manual](https://www.python.org/downloads/) (local user)                 | `C:\Users\[user]\AppData\Local\Programs\Python\Python3x`            |
 | [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) | `C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64` |
@@ -132,32 +143,34 @@ The key benefits of using [Anaconda](https://www.anaconda.com/distribution/) fro
 
 > [Anaconda](https://www.anaconda.com/distribution/) is a python and R distribution. It aims to provide everything you need (Python-wise) for data science "out of the box".
 > It includes:
-> * The core Python language
-> * 100+ Python "packages" (libraries)
-> * Spyder (IDE/editor - like PyCharm) and Jupyter
-> * _conda_, [Anaconda](https://www.anaconda.com/distribution/)'s own package manager, used for updating [Anaconda](https://www.anaconda.com/distribution/) and packages
+>
+> - The core Python language
+> - 100+ Python "packages" (libraries)
+> - Spyder (IDE/editor - like PyCharm) and Jupyter
+> - _conda_, [Anaconda](https://www.anaconda.com/distribution/)'s own package manager, used for updating [Anaconda](https://www.anaconda.com/distribution/) and packages
 
 _and_
 
->  It is quite complete and avoids problems in building libraries that you need from source code, that frequently plague one by one installations of those libraries by tools like pip.
+> It is quite complete and avoids problems in building libraries that you need from source code, that frequently plague one by one installations of those libraries by tools like pip.
 
 Considerations:
-* The independent package management can sometimes be behind.
-* Larger size - is it suitable for the project e.g. Docker perhaps?
+
+- The independent package management can sometimes be behind.
+- Larger size - is it suitable for the project e.g. Docker perhaps?
 
 ### Unit testing
 
-* [In VSCode](https://code.visualstudio.com/docs/python/testing#_test-configuration-settings)
+- [In VSCode](https://code.visualstudio.com/docs/python/testing#_test-configuration-settings)
 
-* [General file structure advice](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
-  * Make your `source` and `tests` directories siblings.
-  * Ensure `__init__.py` exists in both (for test discovery).
+- [General file structure advice](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
+  - Make your `source` and `tests` directories siblings.
+  - Ensure `__init__.py` exists in both (for test discovery).
 
 ## Azure
 
 ### ACR (Azure Container Registry)
 
-* [List the available tags for a repository](https://docs.microsoft.com/en-us/cli/azure/acr/repository?view=azure-cli-latest#az-acr-repository-show-tags)
+- [List the available tags for a repository](https://docs.microsoft.com/en-us/cli/azure/acr/repository?view=azure-cli-latest#az-acr-repository-show-tags)
 
 {% highlight bash %}
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
