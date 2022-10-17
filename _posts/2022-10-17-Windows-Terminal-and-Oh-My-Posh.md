@@ -4,7 +4,7 @@ title: Windows Terminal and Oh My Posh
 published: true
 categories:
   - windows software console
- tags:
+tags:
   - windows terminal console oh-my-posh
 ---
 

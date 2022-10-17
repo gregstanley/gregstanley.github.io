@@ -4,7 +4,7 @@ title: Winget to the rescue
 published: true
 categories:
   - windows software console
- tags:
+tags:
   - windows terminal console winget
 ---
 

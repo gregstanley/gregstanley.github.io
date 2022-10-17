@@ -4,7 +4,7 @@ title: Google Tag Manager and Trusted Types
 published: false
 categories:
   - web
- tags:
+tags:
   - javascript csp trusted-types google tag-manager
 ---
 
