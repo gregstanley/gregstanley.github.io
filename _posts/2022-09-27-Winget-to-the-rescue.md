@@ -8,18 +8,16 @@ tags:
   - windows terminal console winget
 ---
 
-I'm terrible at updating the various frameworks, languages, packages that are installed on my development machines. As such I was excited to discover the [Winget](https://learn.microsoft.com/en-us/windows/package-manager/) application which can take care of the for me, [npm](https://www.npmjs.com/) style. Much better.
-
-Once installed, run the following to get a list of the appliations that can be upgraded:
+I'm terrible at updating the various applications, frameworks and packages that are installed on my development machines. As such I was pretty excited to discover the [Winget](https://learn.microsoft.com/en-us/windows/package-manager/) application which acts as an [npm](https://www.npmjs.com/) style package manager for my Windows machine - once installed, run the following to get a list of the applications that have updates available for them:
 
 {% highlight Console %}
 winget upgrade
 {% endhighlight %}
 
-You can then manually update the relevant applications or do it from the command line with:
+Then either manually update the relevant applications or do it in-place using:
 
 {% highlight Console %}
-winget upgrade -e <Id>
+winget upgrade -e 'Id'
 {% endhighlight %}
 
-Where '<Id>' is the Id as listed by the previous command. See [the documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/#commands) for more commands.
+Where `'Id'` is the Id as listed by the previous command. See [the documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget/#commands) for more commands.
