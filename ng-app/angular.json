@@ -14,7 +14,6 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/gs",
-            "index": "src/angular.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
@@ -30,6 +29,7 @@
           },
           "configurations": {
             "production": {
+              "index": "src/angular.html",
               "budgets": [
                 {
                   "type": "initial",
@@ -45,6 +45,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "index": "src/index.html",
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true

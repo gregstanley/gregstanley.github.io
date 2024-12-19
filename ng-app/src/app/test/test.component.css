@@ -1,0 +1,7 @@
+div.test-container {
+  min-width: max-content;
+  min-height: 100px;
+
+  display: flex;
+  justify-content: center;
+}
