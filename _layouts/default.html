@@ -26,9 +26,10 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
-    <base href="ng/" />
     {% if page.angular %}
-    <!-- Angular -->
+    <base href="ng/" />
+    <script src="/ng-app/dist/gs/browser/polyfills.js" type="module"></script>
+    <script src="/ng-app/dist/gs/browser/main.js" type="module"></script>
     {% endif %}
   </head>
 
