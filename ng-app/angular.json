@@ -6,7 +6,7 @@
     "gs": {
       "projectType": "application",
       "schematics": {},
-      "root": "ng",
+      "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -25,7 +25,8 @@
               }
             ],
             "styles": ["src/styles.css"],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/ng"
           },
           "configurations": {
             "production": {
