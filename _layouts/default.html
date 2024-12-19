@@ -6,7 +6,7 @@
       site.description }}
     </title>
 
-    {% include meta.html %}
+    {% include meta.html %} {% include angular.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,12 +25,6 @@
     />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-
-    {% if page.angular %}
-    <base href="ng/" />
-    <script src="/ng-app/dist/gs/browser/polyfills.js" type="module"></script>
-    <script src="/ng-app/dist/gs/browser/main.js" type="module"></script>
-    {% endif %}
   </head>
 
   <body>
