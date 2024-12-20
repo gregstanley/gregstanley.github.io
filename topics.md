@@ -127,7 +127,42 @@ npm ls -g --depth=0 // List out top level global packages
 
 ## Windows Terminal
 
-### Setup
+### Setup with Oh My Posh
+
+Install [Oh My Posh](https://ohmyposh.dev/):
+
+{% highlight console %}
+winget install JanDeDobbeleer.OhMyPosh
+{% endhighlight %}
+
+Next, select a [Nerd Font](https://www.nerdfonts.com/font-downloads) and install that e.g.:
+
+{% highlight console %}
+oh-my-posh font install Cousine
+{% endhighlight %}
+
+Install Powershell:
+
+{% highlight console %}
+winget install Microsoft.Powershell
+{% endhighlight %}
+
+Change the terminal 'default' to Powershell (NOT WIndows Powershell)
+
+Edit Profile -> Background image to whatever
+
+Select one of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes):
+
+{% highlight console %}
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/star.omp.json" | Invoke-Expression
+{% endhighlight %}
+
+The local copies of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes) are stored at: <User>/AppData/Local/Programs/oh-my-posh/themes
+
+- drop custom ones in there
+
+Ensure the profile is downloaded - theme must be set in file
+/Documents/Profile/Powershell/Microsoft.Powershall_profile.ps1
 
 ## Python
 
