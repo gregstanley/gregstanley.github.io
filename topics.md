@@ -125,6 +125,10 @@ GO
 npm ls -g --depth=0 // List out top level global packages
 {% endhighlight %}
 
+## Windows Terminal
+
+### Setup
+
 ## Python
 
 ### Installing on Windows
