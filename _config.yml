@@ -7,3 +7,6 @@ description: Software Engineer based in the UK
 url: "https://gregstanley.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
+
+# Default is permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:title/
