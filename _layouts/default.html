@@ -22,6 +22,7 @@
           </div>
 
           <nav>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/topics">Topics</a>
             <a href="{{ site.baseurl }}/resources">Resources</a>
             <a href="{{ site.baseurl }}/about">About</a>
@@ -29,15 +30,9 @@
         </header>
       </div>
     </div>
+
     <div id="main" role="main" class="container">
       {{ content }}
-      <ul>
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-  </div>
+    </div>
   </body>
 </html>
