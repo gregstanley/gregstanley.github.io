@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <div id="main" role="main" class="container">{{ content }}</div>
 
     <ul>
     {% for post in site.posts %}
