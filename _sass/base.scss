@@ -47,12 +47,16 @@ h6 {
 .page-header {
   padding: 1rem 0;
   border-bottom: 1px solid $lightGray;
+  display: flex;
+  justify-content: space-between;
+
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-size: large;
+  font-size: medium;
 
   a {
     margin-left: 1rem;
