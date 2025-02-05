@@ -23,9 +23,9 @@ General notes on the following technologies:
 
 To summarise - on the relevant branch use the following to open the default text editor (where x is the number of commits to include):
 
-{% highlight Git %}
+```console
 git rebase -i HEAD~x
-{% endhighlight %}
+```
 
 Leave one commit as 'pick' and change the rest to 'squash'.
 
@@ -42,15 +42,15 @@ Scenario: A pull request has been made based on a developemnt branch. Upon compl
 - Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
 - Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
 
-{% highlight Git %}
+```console
 git rebase --onto master HEAD~1
-{% endhighlight %}
+```
 
 ### Cleaning up old branches
 
-{% highlight Git %}
+```console
 git remote prune origin --dry-run
-{% endhighlight %}
+```
 
 [Additional notes](http://www.fizerkhan.com/blog/posts/Clean-up-your-local-branches-after-merge-and-delete-in-GitHub.html)
 
@@ -58,22 +58,22 @@ git remote prune origin --dry-run
 
 ### Useful containers
 
-{% highlight Docker %}
+```docker
 docker run -d --name seq -e ACCEPT_EULA=Y --restart always -p 5341:80 datalust/seq
 docker run -d --name ghost --restart always -p 3001:2368 ghost
-{% endhighlight %}
+```
 
 ### Copying files
 
-{% highlight Docker %}
+```docker
 docker cp name-1:/dump/onet C:/
-{% endhighlight %}
+```
 
 ### Volumes
 
 DO NOT use ~ (home directory) when specifying volumes (on Windows).
 
-{% highlight Docker %}
+```docker
 DOES NOT WORK
 volumes:
 
@@ -83,23 +83,23 @@ WORKS
 volumes:
 
 - /home/host-user/files:/home/docker-user/files
-  {% endhighlight %}
+```
 
 ### House keeping
 
 Remove all images that aren't connected to a container:
 
-{% highlight Docker %}
+```docker
 docker image prune -a
-{% endhighlight %}
+```
 
 ### Error occured: Cannot enable hyper-v service
 
 This occured after a BIOS update. Hyper-V was still enable but Docker could not launch. Running:
 
-{% highlight Docker %}
+```docker
 bcdedit /set hypervisorlaunchtype auto
-{% endhighlight %}
+```
 
 As discussed [here](https://forums.docker.com/t/cannot-enable-hyper-v-service/94086/5) resolved the issue.
 
@@ -107,23 +107,24 @@ As discussed [here](https://forums.docker.com/t/cannot-enable-hyper-v-service/94
 
 Find out information about running processes:
 
-{% highlight Docker %}
+```docker
 docker-compose top
-{% endhighlight %}
+```
 
 ## SQL Server
 
 When logs get big you can try this (from [here](https://docs.microsoft.com/en-us/sql/relational-databases/databases/shrink-a-database?view=sql-server-ver15)):
-{% highlight SQL %}
+
+```sql
 DBCC SHRINKDATABASE (DataWarehouse, 10);
 GO
-{% endhighlight %}
+```
 
 ## Node
 
-{% highlight bash %}
+```console
 npm ls -g --depth=0 // List out top level global packages
-{% endhighlight %}
+```
 
 ## Windows Terminal
 
@@ -131,21 +132,21 @@ npm ls -g --depth=0 // List out top level global packages
 
 Install [Oh My Posh](https://ohmyposh.dev/):
 
-{% highlight console %}
+```console
 winget install JanDeDobbeleer.OhMyPosh
-{% endhighlight %}
+```
 
 Next, select a [Nerd Font](https://www.nerdfonts.com/font-downloads) and install that e.g.:
 
-{% highlight console %}
+```console
 oh-my-posh font install Cousine
-{% endhighlight %}
+```
 
 Install Powershell:
 
-{% highlight console %}
+```console
 winget install Microsoft.Powershell
-{% endhighlight %}
+```
 
 Change the terminal 'default' to Powershell (NOT WIndows Powershell)
 
@@ -153,9 +154,9 @@ Edit Profile -> Background image to whatever
 
 Select one of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes):
 
-{% highlight console %}
+```console
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/star.omp.json" | Invoke-Expression
-{% endhighlight %}
+```
 
 The local copies of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes) are stored at: <User>/AppData/Local/Programs/oh-my-posh/themes
 
@@ -211,14 +212,6 @@ Considerations:
 
 - [List the available tags for a repository](https://docs.microsoft.com/en-us/cli/azure/acr/repository?view=azure-cli-latest#az-acr-repository-show-tags)
 
-{% highlight bash %}
-az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
-{% endhighlight %}
-
 ```bash
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
-```
-
-```c#
-Class.Call()
 ```
