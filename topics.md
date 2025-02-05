@@ -217,9 +217,8 @@ az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --reposit
 
 ```bash
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
-{% endhighlight %}
 ```
 
-```git
-
+```c#
+Class.Call()
 ```
