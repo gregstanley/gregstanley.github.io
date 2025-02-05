@@ -54,6 +54,8 @@ git remote prune origin --dry-run
 
 [Additional notes](http://www.fizerkhan.com/blog/posts/Clean-up-your-local-branches-after-merge-and-delete-in-GitHub.html)
 
+---
+
 ## Docker
 
 ### Useful containers
@@ -114,6 +116,8 @@ Find out information about running processes:
 docker-compose top
 ```
 
+---
+
 ## SQL Server
 
 When logs get big you can try this (from [here](https://docs.microsoft.com/en-us/sql/relational-databases/databases/shrink-a-database?view=sql-server-ver15)):
@@ -122,6 +126,8 @@ When logs get big you can try this (from [here](https://docs.microsoft.com/en-us
 DBCC SHRINKDATABASE (DataWarehouse, 10);
 GO
 ```
+
+---
 
 ## Node
 
@@ -168,6 +174,8 @@ The local copies of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes) ar
 Ensure the profile is downloaded - theme must be set in file
 /Documents/Profile/Powershell/Microsoft.Powershall_profile.ps1
 
+---
+
 ## Python
 
 ### Installing on Windows
@@ -204,10 +212,11 @@ Considerations:
 ### Unit testing
 
 - [In VSCode](https://code.visualstudio.com/docs/python/testing#_test-configuration-settings)
-
 - [General file structure advice](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
   - Make your `source` and `tests` directories siblings.
   - Ensure `__init__.py` exists in both (for test discovery).
+
+---
 
 ## Azure
 
