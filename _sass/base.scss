@@ -174,11 +174,10 @@ img {
 .post,
 .page {
   blockquote {
-    margin: 1.8rem 0.8rem;
     border-left: 0.1rem solid $gray;
-    padding: 0.1rem 1rem;
+    padding: 0 1rem;
     color: $gray;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-style: italic;
   }
 
@@ -207,4 +206,8 @@ figure.highlight,
 pre.highlight {
   margin: 0 0 1.5rem 0;
   padding: 0.5rem 0.5rem;
+}
+
+pre.highlight {
+  overflow-x: scroll;
 }
