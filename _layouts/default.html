@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
   </head>
   <body>
-    <div class="container site-header-wrapper">
-        <header>
-          <div class="site-info">
-            <div class="site-name">
-              <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-            </div>
-            <p class="site-description">{{ site.description }}</p>
+    <div class="container header-wrapper">
+      <header>
+        <div class="site-info">
+          <div class="site-name">
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
           </div>
+          <p class="site-description">{{ site.description }}</p>
+        </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="{{ site.baseurl }}/topics">Topics</a>
-            <a href="{{ site.baseurl }}/resources">Resources</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+        <nav>
+          <a href="{{ site.baseurl }}/blog">Blog</a>
+          <a href="{{ site.baseurl }}/topics">Topics</a>
+          <a href="{{ site.baseurl }}/resources">Resources</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+      </header>
     </div>
     <div id="main" role="main" class="container">
       {{ content }}
+    </div>
+    <div class="container footer-wrapper">
+      <footer class="footer">{% include svg-icons.html %}</footer>
     </div>
   </body>
 </html>

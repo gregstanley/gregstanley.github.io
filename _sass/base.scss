@@ -124,7 +124,7 @@ img {
   width: 100%;
 }
 
-.site-header-wrapper {
+div.header-wrapper {
   margin-bottom: 2rem;
 
   header {
@@ -200,18 +200,6 @@ img {
   }
 }
 
-.wrapper-footer {
-  margin-top: 2rem;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 1.5rem 0;
-  text-align: center;
-}
-
 figure.highlight,
 pre.highlight {
   margin: 0 0 1.5rem 0;
@@ -220,4 +208,16 @@ pre.highlight {
 
 pre.highlight {
   overflow-x: scroll;
+}
+
+div.footer-wrapper {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+
+  footer {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
 }
