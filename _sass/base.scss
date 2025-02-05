@@ -55,6 +55,7 @@ h4 {
 
 p {
   margin: 1rem 0;
+  line-height: 1.5rem;
 }
 
 a {
@@ -160,7 +161,50 @@ img {
   }
 }
 
-figure.highlight {
+.posts > .post {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post,
+.page {
+  blockquote {
+    margin: 1.8rem 0.8rem;
+    border-left: 0.1rem solid $gray;
+    padding: 0.1rem 1rem;
+    color: $gray;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 0.75rem;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+figure.highlight,
+pre.highlight {
   margin: 0 0 1.5rem 0;
   padding: 0.5rem 0.5rem;
 }
