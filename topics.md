@@ -12,8 +12,8 @@ General notes on the following technologies:
 - Node
 - Python
 - Azure
-- [VS Code](../topics/vscode)
-- [Clean code](../topics/clean-code)
+- [VS Code](vscode)
+- [Clean code](clean-code)
 
 ## Git
 
