@@ -23,7 +23,7 @@ General notes on the following technologies:
 
 To summarise - on the relevant branch use the following to open the default text editor (where x is the number of commits to include):
 
-```console
+```git
 git rebase -i HEAD~x
 ```
 
@@ -42,13 +42,13 @@ Scenario: A pull request has been made based on a developemnt branch. Upon compl
 - Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
 - Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
 
-```console
+```git
 git rebase --onto master HEAD~1
 ```
 
 ### Cleaning up old branches
 
-```console
+```git
 git remote prune origin --dry-run
 ```
 
@@ -73,13 +73,16 @@ docker cp name-1:/dump/onet C:/
 
 DO NOT use ~ (home directory) when specifying volumes (on Windows).
 
+Does NOT work:
+
 ```docker
-DOES NOT WORK
 volumes:
-
 - ~/files:/home/docker-user/files
+```
 
-WORKS
+Does work:
+
+```docker
 volumes:
 
 - /home/host-user/files:/home/docker-user/files
@@ -122,7 +125,7 @@ GO
 
 ## Node
 
-```console
+```sh
 npm ls -g --depth=0 // List out top level global packages
 ```
 
@@ -132,19 +135,19 @@ npm ls -g --depth=0 // List out top level global packages
 
 Install [Oh My Posh](https://ohmyposh.dev/):
 
-```console
+```sh
 winget install JanDeDobbeleer.OhMyPosh
 ```
 
 Next, select a [Nerd Font](https://www.nerdfonts.com/font-downloads) and install that e.g.:
 
-```console
+```sh
 oh-my-posh font install Cousine
 ```
 
 Install Powershell:
 
-```console
+```sh
 winget install Microsoft.Powershell
 ```
 
@@ -154,7 +157,7 @@ Edit Profile -> Background image to whatever
 
 Select one of the [Oh My Posh Themes](https://ohmyposh.dev/docs/themes):
 
-```console
+```sh
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/star.omp.json" | Invoke-Expression
 ```
 
@@ -212,6 +215,6 @@ Considerations:
 
 - [List the available tags for a repository](https://docs.microsoft.com/en-us/cli/azure/acr/repository?view=azure-cli-latest#az-acr-repository-show-tags)
 
-```bash
+```sh
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
 ```
