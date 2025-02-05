@@ -200,6 +200,11 @@ div.header-wrapper {
   }
 }
 
+article > div.date {
+  font-style: italic;
+  color: $gray;
+}
+
 figure.highlight,
 pre.highlight {
   margin: 0 0 1.5rem 0;
