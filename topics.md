@@ -214,3 +214,12 @@ Considerations:
 {% highlight bash %}
 az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
 {% endhighlight %}
+
+```bash
+az acr repository show-tags --name <registry>.azurecr.io/<image>:<tag> --repository <repo>
+{% endhighlight %}
+```
+
+```git
+
+```

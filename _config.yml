@@ -10,3 +10,9 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 # Default is permalink: /:categories/:year/:month/:day/:title:output_ext
 permalink: /:title/
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
