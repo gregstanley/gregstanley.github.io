@@ -12,8 +12,8 @@ General notes on the following technologies:
 - Node
 - Python
 - Azure
-- [VS Code](/topics/vscode)
-- [Clean code](/topics/clean-code)
+- [VS Code](../topics/vscode)
+- [Clean code](../topics/clean-code)
 
 ## Git
 
@@ -23,7 +23,7 @@ General notes on the following technologies:
 
 To summarise - on the relevant branch use the following to open the default text editor (where x is the number of commits to include):
 
-```git
+```sh
 git rebase -i HEAD~x
 ```
 
@@ -42,13 +42,13 @@ Scenario: A pull request has been made based on a developemnt branch. Upon compl
 - Once the PR is complete, checkout 'master' and pull to ensure it is up-to-date.
 - Checkout the development branch and run the following (change the final number to reflect the number of commits in the development branch):
 
-```git
+```sh
 git rebase --onto master HEAD~1
 ```
 
 ### Cleaning up old branches
 
-```git
+```sh
 git remote prune origin --dry-run
 ```
 
