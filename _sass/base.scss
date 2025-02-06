@@ -146,6 +146,7 @@ div.header-wrapper {
   margin-bottom: 2rem;
 
   header {
+    background-image: var(--header-background-image);
     padding: 1rem 0;
     border-bottom: 1px solid $gray;
     display: flex;
