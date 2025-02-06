@@ -161,11 +161,21 @@ div.header-wrapper {
       display: inline-block; /* Keeps it from stretching full width */
       border-top-left-radius: 30px; /* Rounded on one side */
       border-bottom-left-radius: 30px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
 
       span.logo {
         text-transform: uppercase;
-        margin-top: 3rem;
+        position: relative;
+        top: 1.05rem;
+        transition: top 0.3s ease-in-out;
       }
+    }
+
+    /* Hover effect */
+    .header:hover .logo {
+      top: 0; /* Moves text back up */
     }
 
     div.site-name {
