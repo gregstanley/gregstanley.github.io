@@ -159,7 +159,7 @@ div.header-wrapper {
       box-shadow: inset 0 8px 4px -5px $gray;
       color: white;
       width: 100%;
-      padding: 15px 30px;
+      padding: 0.9rem 2rem;
       font-weight: bold;
       display: inline-block; /* Keeps it from stretching full width */
       border-top-left-radius: 30px; /* Rounded on one side */
@@ -171,10 +171,10 @@ div.header-wrapper {
       span.logo {
         text-transform: uppercase;
         position: relative;
-        top: 1.05rem;
+        top: 1.1rem;
         transition: top 0.3s ease-in-out;
         font-size: x-large;
-        text-shadow: 0px -1px 3px $darkerGray;
+        text-shadow: 0px 2px 3px $darkerGray;
       }
     }
 
