@@ -10,3 +10,4 @@ My personal portfolio site, hosted by [GitHub pages](https://gregstanley.github.
 
 - [Long Available](https://github.com/longavailable/empty-jekyll-site) - My initial starting point for moving to [Jekyll 4](https://jekyllrb.com).
 - [Alex Peattie](https://github.com/alexpeattie/alexpeattie.com/) - A great reference site
+- [kciter.so](https://kciter.so/)
