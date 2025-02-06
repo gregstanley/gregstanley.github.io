@@ -159,11 +159,11 @@ div.header-wrapper {
       box-shadow: inset 0 8px 4px -5px $gray;
       color: white;
       width: 100%;
-      padding: 0.9rem 2rem;
+      padding: 0.85rem 2rem;
       font-weight: bold;
       display: inline-block; /* Keeps it from stretching full width */
-      border-top-left-radius: 30px; /* Rounded on one side */
-      border-bottom-left-radius: 30px;
+      border-top-left-radius: 15px; /* Rounded on one side */
+      border-bottom-left-radius: 35px;
       position: relative;
       overflow: hidden;
       transition: all 0.3s ease-in-out;
