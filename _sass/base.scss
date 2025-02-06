@@ -254,6 +254,7 @@ div.footer-wrapper {
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
   background-image: var(--footer-background-image);
+  background-position-x: -1500px;
 
   footer {
     padding: 1.5rem 0;
