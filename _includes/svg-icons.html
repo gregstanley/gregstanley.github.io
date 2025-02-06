@@ -42,4 +42,16 @@
 >{% endif %} {% if site.footer-links.linkedin %}<a
   href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
   ><img src="{{ site.baseurl }}/assets/icons/linkedin.svg" /></a
->{% endif %}
+>{% endif %} {% if site.footer-links.github %}
+<a href="https://github.com/{{ site.footer-links.github }}">
+  <svg width="40" height="40">
+    <use xlink:href="{{ site.baseurl }}/assets/icons/github.svg"></use>
+  </svg>
+</a>
+{% endif %} {% if site.footer-links.linkedin %}
+<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
+  <svg width="40" height="40">
+    <use xlink:href="{{ site.baseurl }}/assets/icons/linkedin.svg"></use>
+  </svg>
+</a>
+{% endif %}
