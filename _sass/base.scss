@@ -258,6 +258,13 @@ div.footer-wrapper {
   footer {
     padding: 1.5rem 0;
     text-align: center;
+
+    a > i {
+      color: white;
+    }
+  }
+
+  footer > a > i {
     color: white;
   }
 }
