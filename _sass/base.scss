@@ -144,6 +144,7 @@ hr {
 
 div.header-wrapper {
   margin-bottom: 2rem;
+  padding-left: 5rem;
 
   header {
     padding: 1rem 0;
@@ -153,10 +154,9 @@ div.header-wrapper {
     align-items: center;
 
     .header {
-      background: #3498db; /* Blue color */
+      background: $headerGradient;
       color: white;
       padding: 15px 30px;
-      font-size: 20px;
       font-weight: bold;
       display: inline-block; /* Keeps it from stretching full width */
       border-top-left-radius: 30px; /* Rounded on one side */
