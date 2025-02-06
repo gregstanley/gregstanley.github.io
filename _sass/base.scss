@@ -153,12 +153,12 @@ div.header-wrapper {
     align-items: center;
 
     .header {
-      background: $headerGradient;
+      background-image: url("{{ site.baseurl }}/assets/images/pics/Grad-4266x300-Orange-Green.png");
       color: white;
       width: 100%;
       padding: 15px 30px;
       font-weight: bold;
-      font-size: large;
+
       display: inline-block; /* Keeps it from stretching full width */
       border-top-left-radius: 30px; /* Rounded on one side */
       border-bottom-left-radius: 30px;
@@ -171,6 +171,7 @@ div.header-wrapper {
         position: relative;
         top: 1.05rem;
         transition: top 0.3s ease-in-out;
+        font-size: x-large;
       }
     }
 
