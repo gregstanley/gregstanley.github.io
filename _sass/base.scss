@@ -152,6 +152,22 @@ div.header-wrapper {
     justify-content: space-between;
     align-items: center;
 
+    .header {
+      background: #3498db; /* Blue color */
+      color: white;
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block; /* Keeps it from stretching full width */
+      border-top-left-radius: 30px; /* Rounded on one side */
+      border-bottom-left-radius: 30px;
+
+      span.logo {
+        text-transform: uppercase;
+        margin-top: 3rem;
+      }
+    }
+
     div.site-name {
       font-size: 2rem;
       font-weight: bold;
