@@ -144,11 +144,10 @@ hr {
 
 div.header-wrapper {
   margin-bottom: 2rem;
-  padding-left: 5rem;
 
   header {
     padding: 1rem 0;
-    border-bottom: 1px solid $headerGradient;
+    border-bottom: 1px solid $gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,8 +155,10 @@ div.header-wrapper {
     .header {
       background: $headerGradient;
       color: white;
+      width: 100%;
       padding: 15px 30px;
       font-weight: bold;
+      font-size: large;
       display: inline-block; /* Keeps it from stretching full width */
       border-top-left-radius: 30px; /* Rounded on one side */
       border-bottom-left-radius: 30px;
