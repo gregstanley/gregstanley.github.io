@@ -75,12 +75,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $primary;
   text-decoration: none;
   cursor: pointer;
   &:hover,
   &:active {
-    color: $blue;
+    color: $primary;
   }
 }
 
@@ -253,6 +253,7 @@ div.footer-wrapper {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  background-image: var(--footer-background-image);
 
   footer {
     padding: 1.5rem 0;
