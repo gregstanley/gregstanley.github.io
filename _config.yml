@@ -35,6 +35,7 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
 
 # Use the following plug-ins

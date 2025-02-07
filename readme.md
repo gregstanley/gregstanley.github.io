@@ -5,6 +5,7 @@
 My personal portfolio site, hosted by [GitHub pages](https://gregstanley.github.io)
 
 - 📦 Uses [Jekyll](https://jekyllrb.com) to generate a static site.
+- 🗺 Automatic RSS feed & sitemap generation using the jekyll plugins.
 
 ## Thanks
 
