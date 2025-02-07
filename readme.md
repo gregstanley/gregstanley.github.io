@@ -4,10 +4,11 @@
 
 My personal portfolio site, hosted by [GitHub pages](https://gregstanley.github.io)
 
-- 📦 Uses [Jekyll](https://jekyllrb.com) to generate the static site.
+- 📦 Uses [Jekyll](https://jekyllrb.com) to generate a static site.
 
 ## Thanks
 
 - [Long Available](https://github.com/longavailable/empty-jekyll-site) - My initial starting point for moving to [Jekyll 4](https://jekyllrb.com).
 - [Alex Peattie](https://github.com/alexpeattie/alexpeattie.com/) - A great reference site
 - [kciter.so](https://kciter.so/)
+- [Footer at the bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)

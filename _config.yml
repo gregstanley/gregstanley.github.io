@@ -6,7 +6,7 @@ description: Software Engineer based in the UK
 
 url: "https://gregstanley.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Greg Stanley" # the name of your site, e.g. ACME Corp.
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -18,7 +18,7 @@ footer-links:
   instagram:
   linkedin: gregstanley
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: feed # just type anything here for a working RSS icon
   twitter:
   stackoverflow: users/8931881/greg-stanley # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -33,6 +33,9 @@ kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
 
 # Use the following plug-ins
 gems:

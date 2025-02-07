@@ -1,18 +1,40 @@
-// Colors
-$primary: #c25782; //#4183c4;
+// Colours
+// Pico have some nice colours - https://picocss.com/docs/colors
+$pink-50: #fbedef;
+$pink-100: #f9dbdf;
+$pink-200: #f9b4be;
+$pink-300: #f8889e;
+$pink-400: #f6547e;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$purple-500: #cd68e0;
+
+$fushia-600: #ac1c7c;
+
+$violet-400: #a780d4;
+$violet-600: #7540bf;
+
+$gray-50: #f1f1f1;
+$gray-100: #e2e2e2;
+$gray-150: #d4d4d4;
+$gray-200: #c6c6c6;
+$gray-250: #b9b9b9;
+$gray-300: #ababab;
+$gray-400: #919191;
+$gray-500: #777777;
+$gray-600: #5e5e5e;
+$gray-700: #474747;
+$gray-800: #303030;
+$gray-900: #1b1b1b;
+
+$primary: $violet-600; //#c25782; // #F6547E
+
+$backgroundColor: #fffdff;
+$bodyColor: $gray-900;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$headingFont: "Nunito Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

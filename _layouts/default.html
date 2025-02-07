@@ -4,30 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{'/assets/css/main.css' | relative_url}}">
+    <link rel="stylesheet" href="{{'/assets/css/syntax.css' | relative_url}}">
   </head>
   <body>
-    <div class="header-wrapper">
-      <header>
-        <div class="header" style="--header-background-image: url('{{ site.baseurl }}/assets/pics/WaveGrad-3500x100-3.png')">
-          <span class="logo">{{ site.name }}</span>
-        </div>
-        <nav>
-          <a href="{{ site.baseurl }}">Home</a>
-          <a href="{{ site.baseurl }}/blog">Blog</a>
-          <a href="{{ site.baseurl }}/topics">Topics</a>
-          <a href="{{ site.baseurl }}/resources">Resources</a>
-          <a href="{{ site.baseurl }}/about">About</a>
-        </nav>
-      </header>
-    </div>
+    <header>
+      <div class="inner-shadow" style="--header-background-image: url({{'/assets/images/WaveGrad-3500x100-3.png' | relative_url}})">
+        <span class="logo">{{ site.name }}</span>
+      </div>
+      <nav>
+        <a href="{{'/' | relative_url}}">Home</a>
+        <a href="{{'/blog' | relative_url}}">Blog</a>
+        <a href="{{'/topics' | relative_url}}">Topics</a>
+        <a href="{{'/resources' | relative_url}}">Resources</a>
+        <a href="{{'/about' | relative_url}}">About</a>
+      </nav>
+    </header>
+
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-    <div class="container footer-wrapper" style="--footer-background-image: url('{{ site.baseurl }}/assets/pics/WaveGrad-3500x100-3.png')">
-      <footer class="footer">{% include svg-icons.html %}</footer>
-    </div>
+
+    <footer class="inner-shadow" style="--footer-background-image: url({{'/assets/images/WaveGrad-3500x100-3.png' | relative_url}})">
+      {% include social-icons.html %}
+    </footer>
   </body>
 </html>

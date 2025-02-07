@@ -1,0 +1,13 @@
+div.split {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  img {
+    width: 150px;
+  }
+
+  div > p:first-child {
+    margin-top: 0;
+  }
+}
