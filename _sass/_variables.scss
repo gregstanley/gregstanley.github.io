@@ -26,7 +26,15 @@ $gray-700: #474747;
 $gray-800: #303030;
 $gray-900: #1b1b1b;
 
-$primary: $violet-600; //#c25782; // #F6547E
+// Coolors theme
+$clay: #c4bbb8;
+$soft-pink: #f5b0cb;
+$strong-pink: #dc6acf;
+$purple: #745c97;
+$deep-purple: #39375b;
+
+$primary: $purple; //$violet-600;
+$secondary: $strong-pink;
 
 $backgroundColor: #fffdff;
 $bodyColor: $gray-900;

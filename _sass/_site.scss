@@ -7,7 +7,6 @@
   max-width: 1024px;
   width: 100%;
   padding: 0 1rem;
-  overflow-x: auto;
   word-break: break-word;
 
   @include mobile {
@@ -77,11 +76,11 @@ header {
     }
 
     a:hover {
-      color: $fushia-600;
+      color: $secondary;
     }
 
     a:hover {
-      border-bottom: 2px solid $fushia-600;
+      border-bottom: 2px solid $secondary;
     }
   }
 }
@@ -151,5 +150,12 @@ footer {
   div.social-icons {
     display: flex;
     gap: 1rem;
+  }
+
+  div.copyright {
+    display: flex;
+    gap: 2rem;
+    font-size: small;
+    color: $gray-200;
   }
 }
