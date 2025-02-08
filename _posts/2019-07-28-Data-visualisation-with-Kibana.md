@@ -9,13 +9,17 @@ tags:
   - kibana
 ---
 
+A while ago I tried to setup an Elasticsearch and Kibana combo using [Docker](https://www.docker.com/) on my local machine and, well, things didn't go too well (a complete lack of understanding my side). I managed to get it working in the end but only after several hours of frustration. As I recall the main issue was a combination of authentication and the containers not seeing each other.
+
+<!--more-->
+
+---
+
 ## Update April 2021
 
 Since writing this I've had more exposure to [Docker](https://www.docker.com/) and would just [use docker-compose](https://github.com/gregstanley/setup-reference/blob/main/Docker/docker-compose.yml) for this task.
 
 ---
-
-A while ago I tried to setup an Elasticsearch and Kibana combo using [Docker](https://www.docker.com/) on my local machine and, well, things didn't go too well (a complete lack of understanding my side). I managed to get it working in the end but only after several hours of frustration. As I recall the main issue was a combination of authentication and the containers not seeing each other.
 
 A reason task has given me reason to try again so, entirely for my own benefit I'm going to make a note of what I did to get setup here.
 

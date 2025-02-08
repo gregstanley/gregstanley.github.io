@@ -7,9 +7,9 @@ tags:
   - Windows
 ---
 
-Having scratched my head for a while wondering why my Python 3.7 install was taking precedence over my Python 3.8 one, despite being convinced that 3.8 was taking priority on the PATH, I stumbled across [this SO answer](https://superuser.com/a/878382) containing the following key line:
+Having scratched my head for a while wondering why my Python 3.7 install was taking precedence over my Python 3.8 one, despite<!--more--> being convinced that 3.8 was taking priority on the PATH, I stumbled across [this SO answer](https://superuser.com/a/878382) containing the following key line:
 
-> *The User path is appended to the system path.*
+> _The User path is appended to the system path._
 
 Which, as another answer describes, could be written as:
 

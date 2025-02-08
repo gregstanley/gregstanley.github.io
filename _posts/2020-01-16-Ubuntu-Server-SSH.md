@@ -10,6 +10,8 @@ tags:
 
 The following notes are a subset of the information provided in [this tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/).
 
+<!--more-->
+
 ## Prerequisites
 
 - An instance of [Ubuntu Server](https://ubuntu.com/download/server) running.
@@ -38,7 +40,7 @@ cat ~/.ssh/id_rsa.pub | ssh remote_username@server_ip_address/your_domain.com "m
 - Open the _config_ file (or, again, create it if it does not exist).
 - Add the following:
 
-```ini
+```plaintext
 Host server_ip_address/your_domain.com
   HostName server_ip_address/your_domain.com
   User remote_user

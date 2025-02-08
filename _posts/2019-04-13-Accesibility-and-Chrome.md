@@ -9,7 +9,11 @@ tags:
   - chrome
 ---
 
-I'm fairly sure that if I did a survey of the features I use, or indeed am even aware of, for pretty much any piece of them I probably wouldn't even hit 50%. I tend to fall in to a way of working with each that means I can get what I need by doing the same thing each time. This _gets the job done_ but limits the scope for discovering new and potentially time saving methods.
+I'm fairly sure that if I did a survey of the features I use, or indeed am even aware of, for pretty much any piece of them I probably wouldn't even hit 50%.
+
+<!--more-->
+
+I tend to fall in to a way of working with each that means I can get what I need by doing the same thing each time. This _gets the job done_ but limits the scope for discovering new and potentially time saving methods.
 
 While playing with some designs at a CSS level I came across [Chrome's colour picker contrast ratio feature](https://developers.google.com/web/updates/2018/01/devtools#contrast). It appeared back in January 2018 so it's hardly brand new but unless you avidly follow [Chrome's release notes](https://chromereleases.googleblog.com/) (which I do not - sorry) you're really only likely to find it when you need it. And I think it's a great idea.
 

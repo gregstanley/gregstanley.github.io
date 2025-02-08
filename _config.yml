@@ -34,12 +34,16 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+# Jekyll 4?
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
-# Use the following plug-ins
+# Jekyll 3? Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem

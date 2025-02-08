@@ -10,7 +10,11 @@ tags:
   - c#
 ---
 
-Scenario - An existing data type has changed, from string to int for example, and therefore may contain invalid data. Entity Framework migrations will producing the following error:
+_Scenario_ - An existing data type has changed, from string to int for example, and therefore may contain invalid data.
+
+<!--more-->
+
+Entity Framework migrations will producing the following error:
 
 ```sh
 An operation was scaffolded that may result in the loss of data. Please review the migration for accuracy.

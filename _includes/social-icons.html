@@ -1,21 +1,33 @@
 {% if site.footer-links.email %}
-<a href="mailto:{{ site.footer-links.email }}">
+<a href="mailto:{{ site.footer-links.email }}" title="email" rel="noopener">
   <i class="fa-solid fa-envelope"></i>
 </a>
 {% endif %} {% if site.footer-links.github %}
-<a href="https://github.com/{{ site.footer-links.github }}">
+<a
+  href="https://github.com/{{ site.footer-links.github }}"
+  title="GitHub"
+  rel="noopener"
+>
   <i class="fa-brands fa-github fa-2x"></i>
 </a>
 {% endif %} {% if site.footer-links.linkedin %}
-<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
+<a
+  href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
+  title="LinkedIn"
+  rel="noopener"
+>
   <i class="fa-brands fa-linkedin fa-2x"></i>
 </a>
 {% endif %} {% if site.footer-links.stackoverflow %}
-<a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}">
+<a
+  href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"
+  title="StackOverflow"
+  rel="noopener"
+>
   <i class="fa-brands fa-stack-overflow fa-2x"></i>
 </a>
 {% endif %} {% if site.footer-links.rss %}
-<a href="{{'/feed.xml' | relative_url}}">
+<a href="{{'/feed.xml' | relative_url}}" title="RSS" rel="noopener">
   <i class="fa-solid fa-square-rss fa-2x"></i>
 </a>
 {% endif %}

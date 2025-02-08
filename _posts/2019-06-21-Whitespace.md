@@ -7,7 +7,9 @@ tags:
   - C#
 ---
 
-While working with C# I have regularly typed in `string`. and then been presented with two options:
+While working with C# I have regularly typed in `string`.and then been presented with two options:
+
+<!--more-->
 
 `string.IsNullOrWhiteSpace`
 `string.IsNullOrEmpty`
