@@ -34,19 +34,19 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-show_excerpts: true
+# Removing this seems to stop excerpts on local Jekyll 4
 excerpt_separator: <!--more-->
 
-# Jekyll 4?
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Jekyll 3? Use the following plug-ins
+# Jekyll 3 Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+
+# Jekyll 4 - local
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
 
 # Exclude these files from your production _site

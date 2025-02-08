@@ -75,11 +75,9 @@ header {
       text-decoration: none;
     }
 
-    a:hover {
+    a:hover,
+    a.current {
       color: $secondary;
-    }
-
-    a:hover {
       border-bottom: 2px solid $secondary;
     }
   }
@@ -89,15 +87,28 @@ header {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid $gray-150;
+
+  div.details {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    span.date {
+      font-size: small;
+      color: $gray-300;
+    }
+
+    span.tag {
+      padding: 0.2rem;
+      border-radius: 5px;
+      border: 2px solid $clay;
+    }
+  }
 }
 
 .posts > .post:last-child {
   padding-bottom: 1rem;
   border-bottom: none;
-}
-
-.post {
-  margin-bottom: 2rem;
 }
 
 .post,
@@ -119,7 +130,12 @@ header {
   }
 }
 
+article > div {
+  margin-bottom: 1rem;
+}
+
 article > div.date {
+  margin-bottom: 2rem;
   font-style: italic;
   color: $gray-500;
 }
