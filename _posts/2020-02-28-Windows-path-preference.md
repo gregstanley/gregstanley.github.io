@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Windows PATH priorities
-categories:
-  - software
-tags:
-  - Windows
+categories: software
+tags: windows
 ---
 
 Having scratched my head for a while wondering why my Python 3.7 install was taking precedence over my Python 3.8 one, despite<!--more--> being convinced that 3.8 was taking priority on the PATH, I stumbled across [this SO answer](https://superuser.com/a/878382) containing the following key line:

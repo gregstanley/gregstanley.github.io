@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Configure SSH access into an Ubuntu Server
-categories:
-  - software
-tags:
-  - ubuntu
-  - ssh
+categories: software
+tags: ubuntu ssh
 ---
 
 The following notes are a subset of the information provided in [this tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/).

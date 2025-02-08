@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Disabling custom NuGet feeds
-categories:
-  - software
-tags:
-  - nuget
-  - build
-  - error
-  - 401
+categories: software
+tags: nuget
 ---
 
 _Scenario_ - You're trying to build and/or run a Visual Studio type project and it complains<!--more--> about being unable to access a custom (and for this case unnecessary) NuGet feed, something like:

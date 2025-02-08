@@ -33,7 +33,20 @@ $strong-pink: #dc6acf;
 $purple: #745c97;
 $deep-purple: #39375b;
 
-$primary: $purple; //$violet-600;
+// Variation created using https://color.adobe.com/create/color-wheel
+$clay-200: #e0d6d3;
+$clay-300: $clay;
+$clay-500: #a79f9b;
+$clay-700: #6d6765;
+$clay-800: #32302f;
+
+$purple-300: #a07fd1;
+$purple-400: #8a6eb4;
+$purple-500: $purple;
+$purple-700: #5d4a79;
+$purple-900: #30263f;
+
+$primary: $purple;
 $secondary: $strong-pink;
 
 $backgroundColor: #fffdff;

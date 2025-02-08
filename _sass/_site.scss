@@ -23,6 +23,7 @@ header {
   gap: 1rem;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
 
   div {
     background-image: var(--header-background-image);
@@ -83,27 +84,50 @@ header {
   }
 }
 
-.posts > .post {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid $gray-150;
+div.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
 
-  div.details {
+  span.categories-and-tags {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
     gap: 0.5rem;
 
-    span.date {
+    span.category {
+      padding: 0.2rem;
+      border-radius: 5px;
       font-size: small;
-      color: $gray-300;
+      background-color: $pink-100;
+      border: 2px solid $pink-200;
     }
 
     span.tag {
       padding: 0.2rem;
       border-radius: 5px;
+      font-size: small;
+      background-color: $clay-200;
       border: 2px solid $clay;
     }
   }
+
+  span.date {
+    font-size: small;
+    color: $gray-300;
+  }
+
+  @include mobile {
+    span.categories-and-tags {
+      display: none;
+    }
+  }
+}
+
+.posts > .post {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $gray-150;
 }
 
 .posts > .post:last-child {

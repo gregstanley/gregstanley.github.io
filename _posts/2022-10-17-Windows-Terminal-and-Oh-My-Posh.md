@@ -2,7 +2,7 @@
 layout: post
 title: Windows Terminal and Oh My Posh
 published: true
-categories: windows software console
+categories: software
 tags: windows terminal console oh-my-posh
 ---
 

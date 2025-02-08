@@ -2,8 +2,8 @@
 layout: post
 title: Winget to the rescue
 published: true
-categories: windows software console
-tags: windows terminal console winget
+categories: software
+tags: windows terminal winget
 ---
 
 I'm terrible at updating the various applications, frameworks and packages that are installed on my development machines.

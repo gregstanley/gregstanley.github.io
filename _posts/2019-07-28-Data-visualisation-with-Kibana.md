@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Data visualisation with Kibana and Elasticsearch
-categories:
-  - software
-  - data
-tags:
-  - elasticsearch
-  - kibana
+categories: data
+tags: elasticsearch kibana
 ---
 
 A while ago I tried to setup an Elasticsearch and Kibana combo using [Docker](https://www.docker.com/) on my local machine and, well, things didn't go too well (a complete lack of understanding my side). I managed to get it working in the end but only after several hours of frustration. As I recall the main issue was a combination of authentication and the containers not seeing each other.
