@@ -196,10 +196,11 @@ footer {
     gap: 1rem;
   }
 
-  div.copyright {
+  div.credits {
     display: flex;
-    gap: 2rem;
-    font-size: small;
+    align-items: baseline;
+    gap: 1rem;
     color: $gray-200;
+    font-size: small;
   }
 }
