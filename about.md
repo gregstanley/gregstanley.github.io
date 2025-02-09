@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a UK based **Senior Software Engineer**. I've been working professionally with all things web and technology since 2006.
+I'm a UK based **Software Engineer**. I've been working professionally with all things web and technology since 2006.
 
 I originally started the site in 2019 as, despite being in the industry for over ten yerars, there was [little to no evidence](https://www.youtube.com/watch?v=z_Cb5wQBoXs) of my existence.
 

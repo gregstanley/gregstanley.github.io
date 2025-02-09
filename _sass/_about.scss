@@ -2,10 +2,13 @@ article.about {
   div.split {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     gap: 1rem;
 
-    img {
-      height: 50px;
+    img.map {
+      height: 200px;
+      filter: invert(40%) sepia(11%) saturate(1920%) hue-rotate(222deg)
+        brightness(93%) contrast(83%);
     }
 
     img.portrait {
@@ -16,10 +19,9 @@ article.about {
     div > p:first-child {
       margin-top: 0;
     }
+  }
 
-    @include mobile {
-      flex-direction: column;
-      align-items: center;
-    }
+  img {
+    height: 50px;
   }
 }
