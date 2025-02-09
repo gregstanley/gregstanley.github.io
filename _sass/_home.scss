@@ -8,8 +8,8 @@ article.home {
     border: 2px solid $clay-200;
     border-radius: 5px 20px 5px 30px;
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    justify-content: center;
+    gap: 2rem;
 
     img {
       flex-shrink: 1;
