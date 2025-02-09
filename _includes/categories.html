@@ -1,0 +1,45 @@
+{% if category == "video" %}
+<img
+  src="{{'/assets/images/brands/youtube-icon-5.svg' | relative_url}}"
+  alt="YouTube icon"
+/>
+{% elsif category == "c#" %}
+<img src="{{'/assets/images/brands/c--4.svg' | relative_url}}" alt="C# icon" />
+{% elsif category == "angular" %}
+<img
+  src="{{'/assets/images/brands/angular.svg' | relative_url}}"
+  alt="Angular icon"
+/>
+{% elsif category == "mongodb" %}
+<img
+  src="{{'/assets/images/brands/mongodb-icon-1.svg' | relative_url}}"
+  alt="MongoDB icon"
+/>
+{% elsif category == "windows" %}
+<img
+  src="{{'/assets/images/brands/microsoft-windows-22.svg' | relative_url}}"
+  alt="Windows icon"
+/>
+{% elsif category == "vscode" %}
+<img
+  src="{{'/assets/images/brands/visual-studio-code-1.svg' | relative_url}}"
+  alt="Visual Studio Code icon"
+/>
+{% elsif category == "sql" %}
+<img
+  src="{{'/assets/images/brands/microsoft-sql-server-1.svg' | relative_url}}"
+  alt="MS SQL Server icon"
+/>
+{% elsif category == "jekyll" %}
+<img
+  src="{{'/assets/images/brands/jekyll.svg' | relative_url}}"
+  alt="Jekyll icon"
+/>
+{% elsif category == "ubuntu" %}
+<img
+  src="{{'/assets/images/brands/ubuntu-icon.svg' | relative_url}}"
+  alt="Ubuntu icon"
+/>
+{% elsif category == "software" %} {% else %}
+<span class="category"> {{ category }} </span>
+{% endif %}

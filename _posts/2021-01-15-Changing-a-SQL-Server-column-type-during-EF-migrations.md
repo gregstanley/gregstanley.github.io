@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Changing a SQL Server column type during EF migrations
-categories: software
-tags: c# sql efcore entity-framework
+categories: software sql
+tags: c# entity-framework
 ---
 
 _Scenario_ - An existing data type has changed, from string to int for example, and therefore may contain invalid data.

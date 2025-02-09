@@ -14,3 +14,4 @@ My personal portfolio site, hosted by [GitHub pages](https://gregstanley.github.
 - [kciter.so](https://kciter.so/)
 - [Footer at the bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 - [https://worldvectorlogo.com/](https://worldvectorlogo.com/) - Brand icons
+- [Embed video](https://github.com/nathancy/jekyll-embed-video)

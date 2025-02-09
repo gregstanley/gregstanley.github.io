@@ -1,0 +1,33 @@
+div.categories-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  span.categories,
+  span.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: baseline;
+
+    img {
+      height: 2rem;
+    }
+  }
+
+  span.category {
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-size: small;
+    background-color: $pink-100;
+    border: 2px solid $pink-200;
+  }
+
+  span.tag {
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-size: small;
+    background-color: $clay-200;
+    border: 2px solid $clay;
+  }
+}

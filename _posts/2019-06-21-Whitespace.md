@@ -1,8 +1,8 @@
 ---
 layout: post
 title: When is Whitespace not Whitespace?
-categories: software
-tags: C#
+categories: c#
+tags: syntax
 ---
 
 While working with C# I have regularly typed in `string`.and then been presented with two options:

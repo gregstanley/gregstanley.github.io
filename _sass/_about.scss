@@ -1,18 +1,25 @@
-article.about > div.split {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
+article.about {
+  div.split {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
 
-  img.portrait {
-    width: 150px;
-  }
+    img {
+      height: 50px;
+    }
 
-  div > p:first-child {
-    margin-top: 0;
-  }
+    img.portrait {
+      width: 150px;
+      height: auto;
+    }
 
-  @include mobile {
-    flex-direction: column;
-    align-items: center;
+    div > p:first-child {
+      margin-top: 0;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

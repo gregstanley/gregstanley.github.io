@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data visualisation with Kibana and Elasticsearch
-categories: data
+categories: software elasticsearch
 tags: elasticsearch kibana
 ---
 
