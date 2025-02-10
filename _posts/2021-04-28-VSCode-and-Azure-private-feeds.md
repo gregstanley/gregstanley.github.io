@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VSCode and Azure private feeds
-categories: software vscode
+categories: vscode
 tags: azure
 redirect_from:
   - VSCode-and-Azure-private-feeds

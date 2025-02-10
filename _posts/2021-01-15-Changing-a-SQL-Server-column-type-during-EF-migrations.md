@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Changing a SQL Server column type during EF migrations
-categories: software sql
+categories: sql
 tags: c# entity-framework
 redirect_from:
   - Changing-a-SQL-Server-column-type-during-EF-migrations

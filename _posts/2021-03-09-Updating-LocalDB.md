@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Updating LocalDB
-categories: software sql
+categories: sql
 tags: localdb
 redirect_from:
   - Updating-LocalDB

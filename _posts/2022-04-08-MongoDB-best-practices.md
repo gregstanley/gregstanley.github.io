@@ -2,7 +2,7 @@
 layout: post
 title: MongoDB schema design best practices
 published: true
-categories: software mongodb
+categories: mongodb
 tags: architecture
 redirect_from:
   - MongoDB-best-practices

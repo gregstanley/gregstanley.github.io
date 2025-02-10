@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Dynamic Components in Angular
+title: Decoded Frontend - Dynamic Components in Angular
 published: true
-categories: software angular
-tags: video components decoded-frontend
+categories: angular
+tags: video decoded-frontend components
 youtubeId: ncbftt3NWVo
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Winget to the rescue
 published: true
-categories: software windows
+categories: windows
 tags: terminal winget
 redirect_from:
   - Winget-to-the-rescue

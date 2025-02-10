@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows PATH priorities
-categories: software windows
+categories: windows
 tags: path
 redirect_from:
   - Windows-path-preference

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taking Cmd-er
-categories: software windows
+categories: windows
 tags: cmder
 redirect_from:
   - Taking-cmd-er

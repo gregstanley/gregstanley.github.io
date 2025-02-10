@@ -2,7 +2,7 @@
 layout: post
 title: Ensuring type safety in Angular with Zod
 published: true
-categories: software angular
+categories: angular
 tags: zod typescript api
 ---
 

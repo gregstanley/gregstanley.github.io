@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chrome and Accessibility
-categories: software chrome
+categories: chrome
 tags: accessibility
 redirect_from:
   - Accesibility-and-Chrome

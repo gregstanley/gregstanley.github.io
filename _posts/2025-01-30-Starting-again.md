@@ -2,7 +2,7 @@
 layout: post
 title: Time for a rebuild
 published: true
-categories: software jekyll
+categories: jekyll
 tags: diary
 ---
 

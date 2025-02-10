@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configure SSH access into an Ubuntu Server
-categories: software ubuntu
+categories: ubuntu
 tags: ssh
 redirect_from:
   - Ubuntu-Server-SSH

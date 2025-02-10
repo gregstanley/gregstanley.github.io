@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Disabling custom NuGet feeds
-categories: software nuget
+categories: nuget
 tags: feeds
 redirect_from:
   - Disabling-custom-NuGet-feeds
