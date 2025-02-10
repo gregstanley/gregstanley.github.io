@@ -40,6 +40,26 @@
   src="{{'/assets/images/brands/ubuntu-icon.svg' | relative_url}}"
   alt="Ubuntu icon"
 />
+{% elsif category == "nuget" %}
+<img
+  src="{{'/assets/images/brands/nuget-icon.svg' | relative_url}}"
+  alt="NuGet icon"
+/>
+{% elsif category == "chrome" %}
+<img
+  src="{{'/assets/images/brands/google_chrome-icon.svg' | relative_url}}"
+  alt="Chrome icon"
+/>
+{% elsif category == "elasticsearch" %}
+<img
+  src="{{'/assets/images/brands/elastic-icon.svg' | relative_url}}"
+  alt="ElasticSearch icon"
+/>
+{% elsif category == "auth0" %}
+<img
+  src="{{'/assets/images/brands/auth0-icon.svg' | relative_url}}"
+  alt="Auth0 icon"
+/>
 {% elsif category == "software" %} {% else %}
 <span class="category"> {{ category }} </span>
 {% endif %}

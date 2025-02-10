@@ -10,6 +10,7 @@ article.home {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
 
     img {
       flex-shrink: 1;
@@ -22,6 +23,11 @@ article.home {
   }
 
   div.tech-icons {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+
     img {
       height: 50px;
     }

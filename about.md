@@ -24,5 +24,5 @@ Useful things I found
 
 ## Other stuff
 
-- [freepik.com](http://www.freepik.com/) - I've used several images from here.
-- [World Vector Logo](https://worldvectorlogo.com/search/nuget) - Has pretty much every brand icon available as an SVG.
+- [freepik.com](http://www.freepik.com/) - Thanks, I've used a few images from there.
+- [worldvectorlogo.com](https://worldvectorlogo.com) and [vectorlogo.zone](https://www.vectorlogo.zone) - For sourcing all the branding SVG files.
