@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When is Whitespace not Whitespace?
-categories: c#
+categories: csharp
 tags: syntax
 redirect_from:
   - Whitespace

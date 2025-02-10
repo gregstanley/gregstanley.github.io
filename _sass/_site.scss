@@ -125,6 +125,11 @@ div.details {
     text-transform: uppercase;
   }
 
+  ul > li > a > img,
+  p > img {
+    height: 50px;
+  }
+
   div.categories-and-tags > img {
     height: 50px;
   }

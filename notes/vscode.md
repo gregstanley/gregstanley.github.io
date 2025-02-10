@@ -1,9 +1,15 @@
 ---
 layout: page
 title: VSCode
-categories: software
-tags: vscode
+categories: vscode
+tags: notes
+redirect_from:
+  - Topics/VSCode
+  - Topics/VSCode/
 ---
+
+![VSCode]({{'/assets/images/brands/visual-studio-code-1.svg' | relative_url}})
+VSCode notes...
 
 ## Useful extensions
 
