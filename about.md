@@ -19,8 +19,10 @@ In January 2025 I decided to give my somewhat neglected site a bit of a refresh 
 
 Useful things I found
 
+- [GitHub approved Jekyll plugins](https://pages.github.com/versions/)
 - Using [WSL to run Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10) was actually straight forward (initially I tried to get away with just publishing to GitHub but eventually conceeded I would need to do more locally).
 - Using the [jekyll-embed-video README](https://github.com/nathancy/jekyll-embed-video) was great for getting YouTube involed without the need for plugins (while I'm on [GitHub pages](https://pages.github.com/)).
+- [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from) - Is a [GitHub approved Jekyll plugin](https://pages.github.com/versions/) so I used that to handle redirecting my old 'root' paths to paths that include the categories.
 
 ## Other stuff
 

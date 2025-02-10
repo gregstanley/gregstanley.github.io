@@ -25,7 +25,7 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 # Default is permalink: /:categories/:year/:month/:day/:title:output_ext (legacy from original site)
-permalink: /:title/
+permalink: /:categories/:title/
 
 markdown: kramdown
 
@@ -42,12 +42,14 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Jekyll 4 - local
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:

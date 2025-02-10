@@ -4,6 +4,7 @@ title: Windows Terminal and Oh My Posh
 published: true
 categories: software windows
 tags: terminal console oh-my-posh
+redirect_from: Windows-Terminal-and-Oh-My-Posh
 ---
 
 I've used [Cmder](https://cmder.app/) for my Windows command line work for a while now, however, the arrival of [Windows Terminal](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/) has made me take another look at this.<!--more-->

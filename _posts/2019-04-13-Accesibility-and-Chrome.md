@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Accessibility
+title: Chrome and Accessibility
 categories: software chrome
 tags: accessibility
+redirect_from: Accesibility-and-Chrome
 ---
 
 I'm fairly sure that if I did a survey of the features I use, or indeed am even aware of, for pretty much any piece of them I probably wouldn't even hit 50%.

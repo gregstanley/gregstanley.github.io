@@ -3,6 +3,7 @@ layout: post
 title: Taking Cmd-er
 categories: software windows
 tags: cmder
+redirect_from: Taking-cmd-er
 ---
 
 I recently had cause to do some work with [Docker](https://www.docker.com/why-docker) and inevitably ended up spending a lot of time at a command prompt.
