@@ -5,7 +5,7 @@ name: Greg Stanley
 description: Software Engineer based in the UK
 
 url: "https://gregstanley.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Greg Stanley" # the name of your site, e.g. ACME Corp.
 
 # Includes an icon in the footer for each username you enter
