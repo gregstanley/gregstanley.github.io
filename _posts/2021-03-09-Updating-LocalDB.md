@@ -3,7 +3,9 @@ layout: post
 title: Updating LocalDB
 categories: software sql
 tags: localdb
-redirect_from: Updating-LocalDB
+redirect_from:
+  - Updating-LocalDB
+  - Updating-LocalDB/
 ---
 
 _TLDR_ The 'Basic' option in the [SQL Express installer](https://www.microsoft.com/en-us/download/details.aspx?id=101064) doesn't install [LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15), you need to switch to 'Download Media' and select it as the option there.

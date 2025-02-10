@@ -3,7 +3,7 @@ layout: post
 title: Time for a rebuild
 published: true
 categories: software jekyll
-tags:
+tags: diary
 ---
 
 This poor site has been somewhat neglected of late - high time for a rebuild.

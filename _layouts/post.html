@@ -10,9 +10,14 @@ layout: default
         {% for category in page.categories %} {% include categories.html %} {%
         endfor %} </span
       ><span class="tags">
-        {% for tag in page.tags %}
+        {% for tag in page.tags %}{% if tag == "video" %}
+        <img
+          src="{{'/assets/images/brands/youtube-icon-5.svg' | relative_url}}"
+          alt="YouTube icon"
+        />
+        {% else %}
         <span class="tag"><i class="fa-solid fa-tag fa-2x"></i>{{ tag }}</span>
-        {% endfor %}</span
+        {% endif %} {% endfor %}</span
       >
     </div>
     <span class="date">Written on {{ page.date | date: "%B %e, %Y" }} </span>

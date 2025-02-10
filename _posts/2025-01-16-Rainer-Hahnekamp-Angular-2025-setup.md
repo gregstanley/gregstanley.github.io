@@ -2,8 +2,8 @@
 layout: post
 title: Rainer Hahnekamp - Angular 2025 setup
 published: true
-categories: video
-tags: resource rainer-hahnekamp
+categories: software angular
+tags: video rainer-hahnekamp
 youtubeId: EdRwC_8Hi8w
 ---
 

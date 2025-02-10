@@ -3,7 +3,9 @@ layout: post
 title: When is Whitespace not Whitespace?
 categories: c#
 tags: syntax
-redirect_from: Whitespace
+redirect_from:
+  - Whitespace
+  - Whitespace/
 ---
 
 While working with C# I have regularly typed in `string`.and then been presented with two options:

@@ -3,7 +3,9 @@ layout: post
 title: Configure SSH access into an Ubuntu Server
 categories: software ubuntu
 tags: ssh
-redirect_from: Ubuntu-Server-SSH
+redirect_from:
+  - Ubuntu-Server-SSH
+  - Ubuntu-Server-SSH/
 ---
 
 The following notes are a subset of the information provided in [this tutorial](https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/).

@@ -13,11 +13,16 @@ title: blog
           {% for category in post.categories %} {% include categories.html %} {%
           endfor %} </span
         ><span class="tags">
-          {% for tag in post.tags %}
+          {% for tag in post.tags %} {% if tag == "video" %}
+          <img
+            src="{{'/assets/images/brands/youtube-icon-5.svg' | relative_url}}"
+            alt="YouTube icon"
+          />
+          {% else %}
           <span class="tag"
             ><i class="fa-solid fa-tag fa-2x"></i>{{ tag }}</span
           >
-          {% endfor %}
+          {% endif %} {% endfor %}
         </span>
       </div>
       <span class="date"> {{ post.date | date: "%B %e, %Y" }} </span>

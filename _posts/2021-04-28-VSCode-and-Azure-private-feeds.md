@@ -3,7 +3,9 @@ layout: post
 title: VSCode and Azure private feeds
 categories: software vscode
 tags: azure
-redirect_from: VSCode-and-Azure-private-feeds
+redirect_from:
+  - VSCode-and-Azure-private-feeds
+  - VSCode-and-Azure-private-feeds/
 ---
 
 _Scenario_ - Building a project that has packages in an [Azure private feed](https://docs.microsoft.com/en-us/azure/devops/artifacts/get-started-nuget?view=azure-devops&tabs=windows) 'just works' in [Visual Studio](https://visualstudio.microsoft.com/) but [VSCode](https://code.visualstudio.com/) receives a `Response status code does not indicate success: 401 (Unauthorized)` error.

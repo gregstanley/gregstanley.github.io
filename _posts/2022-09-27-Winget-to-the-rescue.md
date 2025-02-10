@@ -4,7 +4,9 @@ title: Winget to the rescue
 published: true
 categories: software windows
 tags: terminal winget
-redirect_from: Winget-to-the-rescue
+redirect_from:
+  - Winget-to-the-rescue
+  - Winget-to-the-rescue/
 ---
 
 I'm terrible at updating the various applications, frameworks and packages that are installed on my development machines.
