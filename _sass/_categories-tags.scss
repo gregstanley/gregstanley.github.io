@@ -1,13 +1,14 @@
 div.categories-tags {
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 1rem;
 
   span.categories,
   span.tags {
     display: flex;
     flex-direction: row;
-    gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     align-items: baseline;
 
     img {
@@ -24,10 +25,15 @@ div.categories-tags {
   }
 
   span.tag {
-    padding: 0.2rem;
-    border-radius: 5px;
     font-size: small;
-    background-color: $clay-200;
-    border: 2px solid $clay;
+    font-style: italic;
+    display: flex;
+    gap: 0.2rem;
+    color: $clay-700;
+
+    i {
+      color: $clay-500;
+      text-shadow: 0px 2px 3px $gray-700;
+    }
   }
 }
