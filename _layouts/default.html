@@ -17,9 +17,8 @@
         <span class="logo">{{ site.name }}</span>
       </div>
       <nav>
-        <a href="{{'/' | relative_url}}" {% if page.url == '/' %} class="current" {% endif %} >Home</a>
+        <a href="{{'/' | relative_url}}" {% if page.url == '/' %} class="current" {% endif %} ><i class="fa-solid fa-house"></i></a>
         <a href="{{'/blog' | relative_url}}" {% if page.url == '/blog/' %} class="current" {% endif %}>Blog</a>
-        <a href="{{'/notes' | relative_url}}" {% if page.url == '/notes/' %} class="current" {% endif %}>Notes</a>
         <a href="{{'/about' | relative_url}}" {% if page.url == '/about/' %} class="current" {% endif %}>About</a>
       </nav>
     </header>

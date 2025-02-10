@@ -17,12 +17,16 @@ I have two primary goals for this site:
 
 In January 2025 I decided to give my somewhat neglected site a bit of a refresh and started again using [Jekyll 3/4](https://jekyllrb.com/) and taking advantage of [GitHub pages](https://pages.github.com/) for hosting (I say 3/4 as I'm running Jekyll 4 locallly but, at the time of writing, the GitHub pages action uses Jekyll 3).
 
-Useful things I found
+Useful things I've discovered along the way:
 
 - [GitHub approved Jekyll plugins](https://pages.github.com/versions/)
 - Using [WSL to run Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10) was actually straight forward (initially I tried to get away with just publishing to GitHub but eventually conceeded I would need to do more locally).
 - Using the [jekyll-embed-video README](https://github.com/nathancy/jekyll-embed-video) was great for getting YouTube involed without the need for plugins (while I'm on [GitHub pages](https://pages.github.com/)).
 - [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from) - Is a [GitHub approved Jekyll plugin](https://pages.github.com/versions/) so I used that to handle redirecting my old 'root' paths to paths that include the categories.
+
+## Additional general notes pages
+
+I removed [Notes]({{'/notes' | relative_url}}) from the main navigation as frankly, it's a bit of a mess, but I might still have some use for the pages.
 
 ## Other stuff
 
